@@ -13,5 +13,7 @@ class Monstre{
         void affiche();
         void tourattaque();
         void repos();
+        void getcontent();
+        void setcontent();
     
 };

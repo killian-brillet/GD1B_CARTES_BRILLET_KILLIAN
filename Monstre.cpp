@@ -23,3 +23,19 @@
             _etatMonstre = true
         }
     }
+
+    void Monstre::getPV(){
+
+    }
+
+    void Monstre::setPV(){
+
+    }
+
+    void Monstre::getatt(){
+
+    }
+
+    void Monstre::setatt(){
+
+    }
