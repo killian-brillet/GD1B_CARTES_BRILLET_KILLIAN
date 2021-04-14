@@ -16,10 +16,10 @@
     }
 
     void Monstre::repos(){
-        if (etatMonstre == true){
-            etatMonstre = false
+        if (_etatMonstre == true){
+            _etatMonstre = false
         }
-        if (etatMonstre == false){
-            etatMonstre = true
+        if (_etatMonstre == false){
+            _etatMonstre = true
         }
     }

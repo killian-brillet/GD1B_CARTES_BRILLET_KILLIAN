@@ -36,3 +36,5 @@ int main(){
     monstreennemi.affiche();
     cout << "Fin de partie" << endl;
 }
+
+/* Erreurs d'include pendant le devoir , impossibilité de compiler */
