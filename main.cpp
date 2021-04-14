@@ -8,6 +8,7 @@ int main(){
     char nom;
     int pv;
     int attaque;
+    int attaquetour;
 
     /*Input valeur monstre joueur */
     cout << "Inserer le nom de votre monstre" << endl;
@@ -19,7 +20,7 @@ int main(){
 
     /* Creation des monstres */
     monstrejoueur.Monstre(nom, pv, attaque, true);
-    monstreennemi.Monstre("Globox", 10, 5, true);
+    monstreennemi.Monstre("Globox", 10, 5, false);
 
     /* Boucle tant que monstres vivants */
     while (monstrejoueur._vieMonstre > 0 || monstreennemi._vieMonstre > 0){
@@ -37,4 +38,4 @@ int main(){
     cout << "Fin de partie" << endl;
 }
 
-/* Erreurs d'include pendant le devoir , impossibilité de compiler */
+/* Erreurs d'include pendant le devoir , impossibilité de compiler/tester */
