@@ -12,6 +12,6 @@ class Monstre{
         Monstre(char _nomMonstre, int _vieMonstre, int _attMonstre, bool _etatMonstre);
         void affiche();
         void tourattaque();
-        /*void attaque();*/
+        void repos();
     
 };

@@ -14,3 +14,12 @@
     void Monstre::tourattaque(){
         
     }
+
+    void Monstre::repos(){
+        if (etatMonstre == true){
+            etatMonstre = false
+        }
+        if (etatMonstre == false){
+            etatMonstre = true
+        }
+    }
